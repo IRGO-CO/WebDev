@@ -1,0 +1,51 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #230345;
+    padding: .2em;
+    border-bottom: 3px solid #ffbb33;
+  }
+  
+  .list {
+    display: flex;
+    list-style: none;
+    align-items: center;
+  }
+  
+  .item {
+    margin-right: 1em;
+    font-size: 1.5em;
+  }
+  
+  .item a{
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  .item a:hover {
+    color: #ffbb33;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .logo {
+    width: 3em;
+    cursor: pointer;
+  }
+
+  .mainButon {
+    
+    text-align: center;
+    width: 1.5em;
+    padding-top: .1em;
+    font-size: 2.5em;
+    color: #ffffff;
+    text-shadow: #ffbb33;
+    cursor: pointer;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+  }
+  .mainButon:hover {
+    color: #ffbb33;
+    border: 2px solid #ffbb33;
+  }
