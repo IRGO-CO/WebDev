@@ -25,7 +25,10 @@ function Navbar() {
                         <Link to='/NewProject'>Project</Link>
                     </li>
                 </ul>
-                <spam className={styles.mainButon}>V</spam>
+                <input className={styles.mainButton} type="checkbox" id="menu" name="main_menu" />
+                <label className={styles.mainLabel} htmlFor="main_menu"></label>
+
+             
             </Container>
         </nav>
     )
